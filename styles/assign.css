@@ -57,3 +57,38 @@ nav {
 .header{
     background-image: url('../images/Hero-bg.png');
 }
+.description {
+    font-weight: 500;  /* or 400, 600, 700 — depends on the font you loaded */
+    font-size: 24px;
+    color: #777777;
+    margin: 0;
+    line-height: 1.4;  /* Adjusts vertical spacing */
+    text-align: left;
+     line-height: 1.4;
+}
+
+.title {
+    font-size: 42px;
+    font-weight: bold;  /* You can also use 700 instead */
+    color: #252432;
+    margin: 0;
+    line-height: 1.2;
+    text-align: left;
+    line-height: 1.2;
+}
+
+
+.main{
+    display:flex;
+ margin: 100px auto;
+  padding: 0 20px;
+  max-width: 1200px;
+  text-align: center;
+  justify-content: space-between;
+}
+main section{
+    text-align: left;
+}
+.img-main{
+    border-radius: 48px;
+}
