@@ -214,3 +214,141 @@ main section{
   font-size: 12px;
   color: #aaa;
 }
+
+
+/* 5th section */
+
+/* focus.css - Only for focus section */
+
+.focus-sec {
+  margin: 137px 150px 93px;
+  text-align: center;
+  background-color: white;
+}
+
+.focus-title {
+  font-size: 50px;
+  font-weight:516;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.focus-sub {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.focus-btn {
+  background-color: #4E47FF;
+  color: white;
+  padding: 12px 36px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.focus-img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 28px;
+  margin: 0 auto;
+  
+}
+
+/* contact  */
+.contact{
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 150px;
+  background-color: #D6DDED;
+  gap: 60px;
+   flex-wrap: nowrap;
+}
+
+.contact-left {
+ width: 50%;
+
+}
+
+.contact-title {
+  font-size: 97px;
+  color: #000000;
+  font-weight:bold;
+  line-height: 1.2;
+}
+
+.contact-right {
+  width: 50%;
+
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 6px;
+  margin-top: 16px;
+}
+
+.form input,
+.form textarea {
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  resize: none;
+  background-color: #FFFFFF;
+}
+
+.send-btn {
+  margin-top: 24px;
+  background-color: #4e47ff;
+  color: white;
+  padding: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+}
+
+/* footer */
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 104px 450px;
+}
+.footer-title{
+  font-size: 100px;
+  font-weight: bolder;
+  color:#4e47ff;
+  margin-bottom: 10px;
+}
+.footer-description{
+  font-size: 12px;
+  color:#8987A1;
+}
+
+.footer-point{
+  justify-content: space-around;
+  text-decoration: none;
+  font-size: 12px;
+  color:#8987A1;
+  
+
+}
+.footer-btn{
+  display: flex;                 
+  justify-content: space-around; 
+  gap: 40px;                     
+  margin-top: 10px;
+}
